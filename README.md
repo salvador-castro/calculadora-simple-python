@@ -1,86 +1,96 @@
-# Calculadora con Historial y Soporte para Decimales en Python
+# 🧮 Simple Calculator
 
-Este proyecto es una calculadora de escritorio desarrollada en **Python** utilizando la biblioteca **Tkinter** para la interfaz gráfica. Incluye funcionalidades avanzadas como un historial de operaciones y soporte para ingresar decimales usando tanto **coma** (`,`) como **punto** (`.`).
+A **basic calculator** built with **Python** using Tkinter. This lightweight application provides an easy-to-use interface for performing simple arithmetic operations with support for history and decimal input.
 
-## Características Principales
+## 🚀 Features
 
-✅ **Interfaz intuitiva y responsiva** con botones grandes.\
-✅ **Soporte para teclado** (permite ingresar números y operadores desde el teclado).\
-✅ **Historial de operaciones** (se muestran las últimas 5 operaciones realizadas).\
-✅ **Soporte para decimales con **``** y **`` (convierte `,` a `.` automáticamente para evaluación).\
-✅ **Evita errores como la división por cero** y expresiones inválidas.\
-✅ **Botón para borrar el historial** y limpiar los registros.
+✅ **Graphical User Interface (GUI)** – Built with Tkinter for an intuitive experience.  
+✅ **Supports Basic Arithmetic Operations** – Addition, subtraction, multiplication, and division.  
+✅ **History Log** – Keeps track of the last 5 operations.  
+✅ **Decimal Support** – Allows decimal input using both `,` and `.`.  
+✅ **Keyboard Input** – Perform calculations using your keyboard.  
+✅ **Error Handling** – Prevents division by zero and invalid expressions.  
+✅ **Clear History Button** – Easily reset the history log.  
 
 ---
 
-## Instalación y Uso
+## 📥 Installation
 
-### 1. Requisitos previos
+Follow these steps to set up the project on your local machine:
 
-Para ejecutar esta calculadora, necesitas tener instalado **Python 3** en tu sistema.
+1. **Clone the repository:**
 
-Puedes verificar si Python está instalado ejecutando:
+   ```bash
+   git clone https://github.com/salvador-castro/calculadora-simple-python.git
+   cd calculadora-simple-python
+   ```
 
-```sh
-python --version
+2. **Ensure Python is installed:**
+
+   Check your Python version:
+   ```bash
+   python --version
+   ```
+
+3. **Run the script:**
+
+   ```bash
+   python calculadoraSimple.py
+   ```
+
+---
+
+## 🛠️ Usage
+
+Once the application is running:
+
+1. **Enter numbers and operators** using the buttons or your keyboard.
+2. **Use `,` or `.` for decimal numbers.**
+3. **Press `=` or Enter** to calculate the result.
+4. **Click `C`** to clear the input.
+5. **History log** keeps the last **5 operations**.
+6. **Click `Clear History`** to reset the stored calculations.
+
+Example Operations:
+```
+5 + 3 = 8
+10 / 2 = 5
+7.5 * 2 = 15
 ```
 
-### 2. Clonar el Repositorio
+---
 
-```sh
-git clone https://github.com/tu_usuario/calculadora-tkinter.git
-cd calculadora-tkinter
-```
+## 🤝 Contributing
 
-### 3. Ejecutar el Programa
+Contributions are **welcome**! To contribute:
 
-Ejecuta el siguiente comando en la terminal o en un entorno de desarrollo (VSCode, PyCharm, etc.):
-
-```sh
-python calculadora.py
-```
+1. **Fork the repository.**
+2. **Create a new branch:**  
+   ```bash
+   git checkout -b feature-name
+   ```
+3. **Commit your changes:**  
+   ```bash
+   git commit -m "Added new feature"
+   ```
+4. **Push to the branch:**  
+   ```bash
+   git push origin feature-name
+   ```
+5. **Submit a Pull Request.**
 
 ---
 
-## Explicación del Código
+## 📝 License
 
-El programa se divide en varias secciones clave:
-
-1. **Interfaz Gráfica con Tkinter**:
-
-   - Se crea una ventana principal (`Tk`) con un campo de entrada (`Entry`) para mostrar las operaciones y resultados.
-   - Se agregan botones para los números, operadores y funciones especiales.
-
-2. **Lógica de Cálculo**:
-
-   - Se reemplaza `,` por `.` para la evaluación de la expresión.
-   - Se usa `eval()` para calcular el resultado.
-   - Se manejan errores como división por cero y expresiones inválidas.
-
-3. **Historial de Operaciones**:
-
-   - Se almacena en una lista y se muestran las últimas 5 operaciones.
-   - Se usa un `Text` deshabilitado para evitar ediciones accidentales.
-   - Se permite borrar el historial con un botón.
-
-4. **Soporte para Teclado**:
-
-   - Se permite la entrada de números y operadores con el teclado.
-   - `Enter` realiza el cálculo y `Backspace` borra caracteres.
+This project is licensed under the **MIT License** – feel free to use and modify it as needed.
 
 ---
 
-## Mejoras Futuras
+## 📬 Contact
 
-🔹 Agregar un **modo oscuro** para mejorar la visualización.\
-🔹 Implementar **operaciones avanzadas** como raíces y potencias.\
-🔹 Crear un instalador ejecutable para facilitar el uso sin Python.
+For any questions, suggestions, or collaboration opportunities, reach out via:
 
----
+🔗 **GitHub:** [Salvador Castro](https://github.com/salvador-castro/calculadora-simple-python)  
 
-## Licencia
-
-Este proyecto está bajo la licencia **MIT**, por lo que puedes usarlo y modificarlo libremente.
-
-Si te gustó este proyecto, ¡no olvides darle una estrella en GitHub! ⭐
-
+🚀 Happy Coding! 💻🎯
